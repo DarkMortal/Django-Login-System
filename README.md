@@ -1,0 +1,75 @@
+# Django-Login-System with React Material UI
+
+## Backend
+
+- Creating a Virtual Environment
+  - Install <kbd>virtualenv</kbd> if not installed already
+  
+        pip3 install virtualenv
+  - Create the Virtual Environment
+  
+        virtualenv venv1
+  - Activate the Virtual Environment
+  
+        source venv1/bin/activate
+        
+- Installing Django in the Virtual Environment
+
+      pip3 install django
+
+- What are Migrations in Django?
+  - Migrations are Django's way of propagating changes you make to your models (adding a field, deleting a model, etc.) into your database schema. They're designed to be mostly automatic, but you'll need to know when to make migrations, when to run them, and the common problems you might run into.
+
+- CORS Settings in Django (Very Important)
+  - Install Django CORS Headers in your Virtual Environment
+   
+        pip3 install django-cors-headers
+  - In settings.py
+
+        INSTALLED_APPS = [
+            ...,
+            "corsheaders",
+            ...,
+        ]
+        MIDDLEWARE = [
+        ...,
+        "corsheaders.middleware.CorsMiddleware",
+        "django.middleware.common.CommonMiddleware",
+        ...,
+        ]
+  - Add allowed origins which can access your api
+  
+        CORS_ALLOWED_ORIGINS = [
+            "http://localhost:3000" #There is only one in my case
+        ]
+- Add CRSF Exempt (in case of CRSF errors)
+  - In views.py
+
+        from django.views.decorators.csrf import csrf_exempt
+        ... #other imports
+        @csrf_exempt
+        #The view for which crsf-token is to be exempted
+        
+- Install all the required modules:
+  
+      pip3 install django environ arrow
+- How to start the APP:
+  - First start the Python Virtual Environment
+    
+        source ./backend/venv1/bin/activate
+  - Go to backend/backend and from there open up terminal and type the command:
+   
+        python3 manage.py runserver 5000
+  - Next go to the frontend folder and type the commands:
+   
+        yarn build
+        serve build --listen 3000
+
+## Frontend
+
+### Made using React Material UI
+
+- To start the Frontend server
+
+        yarn build
+        serve build --listen 3000

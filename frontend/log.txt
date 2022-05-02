@@ -1,0 +1,92 @@
+File /home/saptarshi-dey/Pictures/Drawing1.png
+
+Errors :
+0 : the definition is not identified
+32 : there is no definition with the identity: 2
+42 : there is no definition with the identity: 8
+80 : there is no definition with the identity: 5
+90 : there is no definition with the identity: 1
+
+Warnings :
+1 : the definition is not identified
+2 : the definition is not identified
+6 : the definition is not identified
+8 : the definition is not identified
+10 : the definition is not identified
+13 : the definition is not identified
+14 : the definition is not identified
+15 : the definition is not identified
+16 : the definition is not identified
+17 : the definition is not identified
+18 : the definition is not identified
+19 : the definition is not identified
+20 : the definition is not identified
+21 : the definition is not identified
+22 : the definition is not identified
+23 : the definition is not identified
+24 : the definition is not identified
+25 : the definition is not identified
+26 : the definition is not identified
+27 : the definition is not identified
+28 : the definition is not identified
+29 : the definition is not identified
+30 : the definition is not identified
+31 : the definition is not identified
+33 : the definition is not identified
+34 : the definition is not identified
+35 : the definition is not identified
+36 : the definition is not identified
+37 : the definition is not identified
+38 : the definition is not identified
+39 : the definition is not identified
+40 : the definition is not identified
+41 : the definition is not identified
+43 : the definition is not identified
+44 : the definition is not identified
+45 : the definition is not identified
+46 : the definition is not identified
+47 : the definition is not identified
+48 : the definition is not identified
+49 : the definition is not identified
+50 : the definition is not identified
+51 : the definition is not identified
+52 : the definition is not identified
+53 : the definition is not identified
+54 : the definition is not identified
+55 : the definition is not identified
+56 : the definition is not identified
+57 : the definition is not identified
+58 : the definition is not identified
+59 : the definition is not identified
+60 : the definition is not identified
+61 : the definition is not identified
+62 : the definition is not identified
+63 : the definition is not identified
+64 : the definition is not identified
+65 : the definition is not identified
+66 : the definition is not identified
+67 : the definition is not identified
+68 : the definition is not identified
+69 : the definition is not identified
+70 : the definition is not identified
+71 : the definition is not identified
+72 : the definition is not identified
+73 : the definition is not identified
+74 : the definition is not identified
+75 : the definition is not identified
+76 : the definition is not identified
+77 : the definition is not identified
+78 : the definition is not identified
+79 : the definition is not identified
+81 : the definition is not identified
+82 : the definition is not identified
+83 : the definition is not identified
+84 : the definition is not identified
+85 : the definition is not identified
+86 : the definition is not identified
+87 : the definition is not identified
+88 : the definition is not identified
+89 : the definition is not identified
+91 : the definition is not identified
+
+Your trace has 5 errors and 80 warnings.
