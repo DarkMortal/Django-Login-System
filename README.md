@@ -52,7 +52,16 @@
         
 - Install all the required modules:
   
-      pip3 install django environ arrow
+      pip3 install django-environ arrow
+      
+- How to start/create a new app in Django?
+
+      python3 manage.py startapp APPNAME
+- How to makemigrations?
+
+      python3 manage.py makemigrations
+      python3 manage.py migrate
+  Additionally, you might get an error when applying migrations. Most common solution : Delete migration history files along with the .sqlite3 file
 - How to start the APP:
   - First start the Python Virtual Environment
     
