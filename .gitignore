@@ -26,4 +26,3 @@ dist-ssr
 
 frontend/build
 backend/venv1
-**/.env
