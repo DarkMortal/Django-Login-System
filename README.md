@@ -97,3 +97,5 @@
       {'timezones': ['Europe/London'], 'code': 'GB', 'continent': 'Europe', 'name': 'United Kingdom', 'capital': 'London'},
       ]
 You can edit these in <b>settings.py</b>
+
+# [Demo of the Project](https://youtu.be/k8CWAeBPm1M)
